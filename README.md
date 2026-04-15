@@ -27,6 +27,19 @@
   - postman 설치
 - jpa 설정과 db info를 application 설정 파일(`applicaion.properties`)에 세팅
 
+### API 테이블
+
+| Method | Path | 설명 | 요청 본문 |
+| --- | --- | --- | --- |
+| `POST` | `/api/products` | 상품 생성 | `name`, `price` |
+| `GET` | `/api/products/{id}` | 상품 단건 조회 | - |
+| `GET` | `/api/products` | 상품 목록 조회 | - |
+| `PUT` | `/api/products/{id}` | 상품 수정 | `name`, `price` |
+| `DELETE` | `/api/products/{id}` | 상품 삭제 | - |
+
+- Request Body: `name`(필수), `price`(필수, 0 이상)
+- Response Body: `id`, `name`, `price`
+
 ### 실습 결과
 
 ![실습 결과 1](./img/image.png)
