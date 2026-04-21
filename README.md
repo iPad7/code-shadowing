@@ -4,21 +4,7 @@
 
 > LLM Chatbot, Coding Assistant에 의존하지 않고 Spring Boot 코드를 쉐도잉하고, 추후에는 비즈니스 로직이 실려 있는 Controller를 받아 Service 계층으로 분리해용
 
-1. 일정
-- 1차: ~ 2026-04-15 (수) 18:00
-- 2차: 피드백 ~ 2026-04-17 (금) 18:00
-- 3차: 피드백 ~ 2026-04-20 (월) 18:00
-
-2. 달리기반 체크리스트
-- [x] 1차: 단순 따라치기
-- [ ] 2차: Controller Layer에서 로직 분리 실습
-  - [ ] Coding
-  - [ ] Review
-- [ ] 3차: Controller Layer에서 로직 분리 실습
-    - [ ] Coding
-    - [ ] Review
-
-## Notes: 1차
+## Notes
 
 ### 생각해 볼 것
 - 훑어 봤을 때, 프로젝트 생성 시 필요한 dependency: lombok, spring web, jpa
