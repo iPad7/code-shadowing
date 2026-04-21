@@ -14,6 +14,5 @@ public class ProductRequest {
     private String name;
 
     @NotNull(message = "가격은 필수 입력입니다.")
-    @Min(value = 0, message = "가격은 0원 이상이어야 합니다.")
     private Integer price;
 }
